@@ -31,5 +31,5 @@ jobs:
         namespace: gitaksnamespace
     - name: Deploy to Kubernetes
       run: |
-        kubectl apply -f deploy.yaml
+        kubectl apply -f deploy.yml
 
